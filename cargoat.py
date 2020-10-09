@@ -77,5 +77,5 @@ cg = carOrGoat(get)
 cg.gen_doors_m1()
 cg.gen_doors_m2()
 
-print("Always sticking with your first choice yielded you: {}% accuracy.".format(cg.correctM1/get))
-print("While always switching to a second choice yielded you {}% accuracy.".format(cg.correctM2/get))
+print("Always sticking with your first choice yielded you: {}% accuracy.".format(cg.correctM1/get*100))
+print("While always switching to a second choice yielded you {}% accuracy.".format(cg.correctM2/get*100))
